@@ -1,0 +1,19 @@
+#log{
+    color: rgb(0, 0, 0);
+    grid-column-start: 3;
+    grid-column-end: 4;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-gap: 25px;
+}
+.login{
+    font-family: 'Raleway', sans-serif;
+    justify-self: end;
+    align-self: center;
+}
+.signup{
+    font-family: 'Raleway', sans-serif;
+    justify-self: start ;
+    align-self: center;
+}
