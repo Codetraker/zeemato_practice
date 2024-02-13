@@ -11,7 +11,6 @@ const Pic = props =>{
                 <div id={classes.boxtwo}></div>
                 <div id={classes.boxthree}></div>
                 <div id={classes.boxfour}>
-                    <div id={classes.boxfourblack}>.</div>
                     <h4 id={classes.boxfourtext}>View Gallery</h4>
                 </div>
             </div>

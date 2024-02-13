@@ -1,3 +1,32 @@
 .about{
     background-color: aqua;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 20% 20% 20% 20% 20%;
+    height: 190px;
+}
+#box1{
+    background-color: rgb(139, 139, 138);
+    grid-row: 1/2;
+}
+#box2{
+    background-color: rgb(128, 93, 46);
+    grid-row: 2/3;
+}
+#box3{
+    background-color: rgb(6, 203, 141);
+    grid-row: 3/4;
+}
+#box4{
+    background-color: rgb(50, 54, 155);
+    grid-row: 4/5;
+}
+#box5{
+    background-color: rgb(207, 99, 106);
+    grid-row: 5/6;
+}
+#box6{
+    background-color: rgb(7, 166, 229);
+    grid-column: 2/3;
+    grid-row: 1/6;
 }
