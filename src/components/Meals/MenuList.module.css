@@ -5,6 +5,9 @@
     background-color: rgb(255, 255, 255);
     font-family: 'Raleway', sans-serif;
     font-size: 25px;
+    margin-bottom: 5px;
+    padding-bottom: 10px;
+    border-bottom: 1px solid rgba(142, 139, 139, 0.559);
 }
 
 .meals{

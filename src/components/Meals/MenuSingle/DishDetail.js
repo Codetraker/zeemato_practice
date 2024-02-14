@@ -1,12 +1,12 @@
 import classes from './DishDetail.module.css';
 const DishDetails = props =>{
-    const price = `Rs.${props.price.toFixed(2)}`;
+    const price = `₹${props.price.toFixed(2)}`;
     return (
         <li className={classes.dishdetailLi}>
             <div className={classes.dishdetailDiv}>
-                <h3>{props.name}</h3>
-                <div>{price}</div>
-                <div>{props.description}</div>
+                <h3 id={classes.heading3}>{props.name}</h3>
+                <div id={classes.priceDiv}>{price}</div>
+                <div id={classes.descDiv}>{props.description}</div>
             </div>
             <div className={classes.dishdetailForm}>
                 form

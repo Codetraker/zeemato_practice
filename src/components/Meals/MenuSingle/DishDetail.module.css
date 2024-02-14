@@ -1,11 +1,28 @@
 .dishdetailLi{
     display: grid;
-    margin-bottom: 10px;
-    grid-template-columns:80% 20%;
+    margin-bottom: 20px;
+    grid-template-columns:60% 20% 20%;
+
 }
 .dishdetailDiv{
-    background-color: aquamarine;
+    background-color: rgb(255, 255, 255);
+    grid-column: 1/2;
 }
 .dishdetailForm{
     background-color: blueviolet;
+    grid-column: 3/4;
+}
+#heading3{
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+#priceDiv{
+    color: #fd6f02;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 5px;
+}
+#descDiv{
+    font-size: 12px;
+    justify-content: start;
+    color: rgb(141, 140, 140);
 }

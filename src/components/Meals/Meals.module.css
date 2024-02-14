@@ -2,7 +2,6 @@
     background-color: rgb(255, 255, 255);
     display: grid;
     grid-template-columns: 20% 80%;
-    height: 800px;
     margin-top: 5px;
     font-family: 'Raleway', sans-serif;
 }
@@ -27,6 +26,8 @@
     align-items: center;
 }
 #mealList{
-    background-color: rgb(191, 191, 191);
+    background-color: rgb(255, 255, 255);
     margin-left: 10px;
+    /* max-height: 500px;
+    overflow: scroll; */
 }
