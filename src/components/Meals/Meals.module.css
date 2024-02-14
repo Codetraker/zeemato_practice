@@ -1,0 +1,32 @@
+.meal{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 20% 80%;
+    height: 800px;
+    margin-top: 5px;
+    font-family: 'Raleway', sans-serif;
+}
+
+#rice{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+}
+#ricebox{
+    background: linear-gradient(to right, rgb(255, 255, 255),#ffc9a073 , #f57c1f73);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-right: 3px solid #F57D1F;
+    color: #ff6f00; 
+    font-weight: bold;
+}
+#nonefun{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#mealList{
+    background-color: rgb(191, 191, 191);
+    margin-left: 10px;
+}

@@ -1,0 +1,47 @@
+.main{
+    border-bottom: 2px rgba(255, 255, 255, 0.404) solid;
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    grid-template-columns: 10% 10% 10% 10% 10% 10%;
+    font-family: 'Raleway', sans-serif;
+    margin-top: 5px;
+}
+#first{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#second{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 2px solid #F57D1F;
+    color: #F57D1F;
+}
+#third{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#four{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#five{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+#six{
+    background-color: rgb(255, 255, 255);
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
