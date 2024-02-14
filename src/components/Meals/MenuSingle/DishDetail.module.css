@@ -1,0 +1,11 @@
+.dishdetailLi{
+    display: grid;
+    margin-bottom: 10px;
+    grid-template-columns:80% 20%;
+}
+.dishdetailDiv{
+    background-color: aquamarine;
+}
+.dishdetailForm{
+    background-color: blueviolet;
+}
