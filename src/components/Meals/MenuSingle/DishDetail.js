@@ -1,4 +1,6 @@
+import DishAddForm from './DishAddForm';
 import classes from './DishDetail.module.css';
+
 const DishDetails = props =>{
     const price = `₹${props.price.toFixed(2)}`;
     return (
@@ -9,7 +11,7 @@ const DishDetails = props =>{
                 <div id={classes.descDiv}>{props.description}</div>
             </div>
             <div className={classes.dishdetailForm}>
-                form
+                <DishAddForm />
             </div>
         </li>
     );

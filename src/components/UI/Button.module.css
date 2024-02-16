@@ -1,0 +1,11 @@
+.button{
+    font-family: 'Raleway', sans-serif;
+    font-weight: bolder;
+    letter-spacing: 1px;
+    border: 0px;
+    border-radius: 10px;
+    font-size: small;
+    height: 30px;
+    width: 50px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.329);
+}

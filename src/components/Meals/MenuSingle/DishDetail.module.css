@@ -1,7 +1,7 @@
 .dishdetailLi{
     display: grid;
     margin-bottom: 20px;
-    grid-template-columns:60% 20% 20%;
+    grid-template-columns:60% 10% 30%;
 
 }
 .dishdetailDiv{
@@ -9,8 +9,10 @@
     grid-column: 1/2;
 }
 .dishdetailForm{
-    background-color: blueviolet;
+    background-color: rgb(255, 255, 255);
     grid-column: 3/4;
+    display: grid;
+    align-items: center;
 }
 #heading3{
     margin-bottom: 5px;

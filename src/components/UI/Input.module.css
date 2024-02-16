@@ -1,0 +1,24 @@
+.inputDiv{
+    font-family: 'Raleway', sans-serif;
+    font-size: small;
+}
+label{
+    font-weight: bold;
+    color: #F57D1F;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+input{
+    width: 25px;
+    border: 0px;
+    border-radius: 5px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.329);
+}
+.x{
+    color: #9f4705;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 4px;
+    margin-right: 4px;
+}
